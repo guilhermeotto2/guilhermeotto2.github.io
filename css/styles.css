@@ -1,0 +1,171 @@
+@import url(resets.css);
+@import url(media.css);
+/*barra lateral*/
+.left {
+    background-color: #0047ab;
+    height: 100vh;
+    position: fixed;
+    width: 9%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.left_ul {
+    line-height: 480%;
+    position: relative;
+    grid-row: 2;
+}
+
+ul li {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fa-solid{
+    color: white;
+}
+
+.fa-solid:hover {
+    color: black;
+    transition: 0.3s;
+}
+/*fim barra lateral*/
+
+/*direita*/
+header h1 {
+    font-size: 3em;
+}
+.todo-container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 150px 200px;;
+    grid-template-columns: repeat(3fr);
+}
+
+#todo-form {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.form-control input {
+    padding: 20px 15%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    float: left;
+}
+
+.form-control {
+    display: flex;
+}
+
+#toolbar {
+    display: flex;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#todo-list {
+    max-width: 130%;
+    margin-bottom: 8%;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#todo-list .fa-solid {
+    font-size: 1.1rem;
+}
+
+#toolbar input{
+    padding: 20px 15%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    float: right;
+}
+
+#search form {
+    display: flex;
+}
+
+#erase-button, .plus {
+    padding: 20px;
+    background-color: #0047ab;
+    border: none;
+}
+
+.plus {
+    color: white;
+}
+
+.fa-delete-left, .fa-plus {
+    font-size: 1.3rem;
+}
+
+#filter {
+    margin-left: 8%;
+}
+
+#filter select {
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+}
+
+header {
+    z-index: 3;
+    grid-column: 2;
+    margin-top: 10%;
+}
+
+
+#edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+#edit-form p {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#cancel-edit-btn {
+    margin-top: 1rem;
+    color: #444;
+}
+
+.hide {
+    display: none;
+}
+
+.fa-check {
+    color: rgb(0, 196, 0);
+}
+
+.fa-pen {
+    color: #444;
+}
+
+.fa-xmark {
+    color: red;
+}
+
+.finish-todo, .edit-todo, .remove-todo{
+    background-color: transparent;
+    border: none;
+    padding: 0 10px;
+}
+
+.todo {
+    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    margin-bottom: 2%;
+}
+
+/*fim direita*/
+
+.selected-icon {
+    color: black;
+}

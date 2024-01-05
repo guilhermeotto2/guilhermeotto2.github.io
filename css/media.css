@@ -1,0 +1,33 @@
+@media only screen and (max-width: 767px) {
+    /* Estilos para smartphones e dispositivos menores */
+    .left {
+        height: 5% !important;
+        width: 100vw !important;
+    }
+
+    #toolbar {
+        grid-column: 2 !important;
+        grid-row: 3 !important;
+    }
+
+    #todo-list {
+        grid-row: 4 !important;
+        width: 90% !important;
+    }
+
+    .left_ul {
+        line-height: 0 !important;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15%;
+    }
+    
+    ul li {
+        font-size: 1.4rem !important;
+        text-align: center;
+        list-style: none;
+    }
+    
+}
