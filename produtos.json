@@ -1,0 +1,305 @@
+{
+  "produtos": [
+    {
+      "nome": "Camisa Bragantino 2023",
+      "id": 1,
+      "imagem": "camisas/BRAGANTINO.png",
+      "tipo": "camiseta",
+      "disp": true,
+      "tamanhos": {
+        "P": {
+          "preco": 109.99,
+          "disponivel": false
+        },
+        "M": {
+          "preco": 109.99,
+          "disponivel": false
+        },
+        "G": {
+          "preco": 109.99,
+          "disponivel": true
+        },
+        "GG": {
+          "preco": 109.99,
+          "disponivel": false
+        }
+      }
+    },
+    {
+      "nome": "Camisa Flamengo 2024",
+      "id": 2,
+      "imagem": "camisas/Flamengo24.jpg",
+      "tipo": "camiseta",
+      "disp": true,
+      "tamanhos": {
+        "P": {
+          "preco": 109.99,
+          "disponivel": false
+        },
+        "M": {
+          "preco": 109.99,
+          "disponivel": true
+        },
+        "G": {
+          "preco": 109.99,
+          "disponivel": false
+        },
+        "GG": {
+          "preco": 109.99,
+          "disponivel": false
+        }
+      }
+    },
+    {
+      "nome": "Camisa Juventus 2023",
+      "id": 3,
+      "imagem": "camisas/juventus24.png",
+      "tipo": "camiseta",
+      "disp": true,
+      "tamanhos": {
+        "P": {
+          "preco": 109.99,
+          "disponivel": false
+        },
+        "M": {
+          "preco": 109.99,
+          "disponivel": false
+        },
+        "G": {
+          "preco": 109.99,
+          "disponivel": true
+        },
+        "GG": {
+          "preco": 109.99,
+          "disponivel": false
+        }
+      }
+    },
+    {
+      "nome": "Camisa São Paulo 2023",
+      "id": 4,
+      "imagem": "camisas/saopaulo-preta.png",
+      "tipo": "camiseta",
+      "disp": true,
+      "tamanhos": {
+        "P": {
+          "preco": 109.99,
+          "disponivel": false
+        },
+        "M": {
+          "preco": 109.99,
+          "disponivel": false
+        },
+        "G": {
+          "preco": 109.99,
+          "disponivel": true
+        },
+        "GG": {
+          "preco": 109.99,
+          "disponivel": false
+        }
+      }
+    },
+    {
+      "nome": "Hugo Boss x Looney Toones",
+      "id": 5,
+      "imagem": "conjuntos/c-boss-branco.jpg",
+      "tipo": "conjunto",
+      "disp": true,
+      "tamanhos": {
+        "P": {
+          "preco": 299.99,
+          "disponivel": false
+        },
+        "M": {
+          "preco": 299.99,
+          "disponivel": true
+        },
+        "G": {
+          "preco": 299.99,
+          "disponivel": true
+        },
+        "GG": {
+          "preco": 299.99,
+          "disponivel": false
+        }
+      }
+    },
+    {
+      "nome": "Armani Dourado",
+      "id": 6,
+      "imagem": "conjuntos/armani-dourado.png",
+      "tipo": "conjunto",
+      "disp": false,
+      "tamanhos": {
+        "P": {
+          "preco": 299.99,
+          "disponivel": false
+        },
+        "M": {
+          "preco": 299.99,
+          "disponivel": true
+        },
+        "G": {
+          "preco": 299.99,
+          "disponivel": true
+        },
+        "GG": {
+          "preco": 299.99,
+          "disponivel": true
+        }
+      }
+    },
+    {
+      "nome": "Moletom Hugo Boss",
+      "id": 7,
+      "imagem": "casacos-moletons/boss-azul-preto.jpg",
+      "tipo": "blusa",
+      "disp": true,
+      "tamanhos": {
+        "P": {
+          "preco": 199.99,
+          "disponivel": false
+        },
+        "M": {
+          "preco": 199.99,
+          "disponivel": false
+        },
+        "G": {
+          "preco": 199.99,
+          "disponivel": true
+        },
+        "GG": {
+          "preco": 199.99,
+          "disponivel": false
+        }
+      }
+    },
+    {
+      "nome": "Corta-vento Milan",
+      "id": 8,
+      "imagem": "casacos-moletons/corta-milan.jpg",
+      "tipo": "blusa",
+      "disp": true,
+      "tamanhos": {
+        "P": {
+          "preco": 229.99,
+          "disponivel": false
+        },
+        "M": {
+          "preco": 229.99,
+          "disponivel": true
+        },
+        "G": {
+          "preco": 229.99,
+          "disponivel": false
+        },
+        "GG": {
+          "preco": 229.99,
+          "disponivel": false
+        }
+      }
+    },
+    {
+      "nome": "Moletom Quiksilver",
+      "id": 9,
+      "imagem": "casacos-moletons/moleta3quik.jpg",
+      "tipo": "blusa",
+      "disp": true,
+      "tamanhos": {
+        "P": {
+          "preco": 199.99,
+          "disponivel": false
+        },
+        "M": {
+          "preco": 199.99,
+          "disponivel": false
+        },
+        "G": {
+          "preco": 199.99,
+          "disponivel": true
+        },
+        "GG": {
+          "preco": 199.99,
+          "disponivel": false
+        }
+      }
+    },
+    {
+      "nome": "Internacional Treino 2024",
+      "id": 10,
+      "imagem": "camisas/inter-treinopng.png",
+      "tipo": "camiseta",
+      "disp": true,
+      "tamanhos": {
+        "P": {
+          "preco": 109.99,
+          "disponivel": false
+        },
+        "M": {
+          "preco": 109.99,
+          "disponivel": true
+        },
+        "G": {
+          "preco": 109.99,
+          "disponivel": true
+        },
+        "GG": {
+          "preco": 109.99,
+          "disponivel": true
+        }
+      }
+    },
+    {
+      "nome": "Boss x NBA",
+      "id": 11,
+      "imagem": "casacos-moletons/bossxnba.png",
+      "tipo": "blusa",
+      "disp": true,
+      "tamanhos": {
+        "P": {
+          "preco": 179.99,
+          "disponivel": false
+        },
+        "M": {
+          "preco": 179.99,
+          "disponivel": true
+        },
+        "G": {
+          "preco": 179.99,
+          "disponivel": false
+        },
+        "GG": {
+          "preco": 179.99,
+          "disponivel": false
+        }
+      }
+    },
+    {
+      "nome": "Camisa Inglaterra 2024",
+      "id": 12,
+      "imagem": "camisas/inglaterra.png",
+      "tipo": "camiseta",
+      "disp": true,
+      "tamanhos": {
+        "P": {
+          "preco": 109.99,
+          "disponivel": false
+        },
+        "M": {
+          "preco": 109.99,
+          "disponivel": true
+        },
+        "G": {
+          "preco": 109.99,
+          "disponivel": false
+        },
+        "GG": {
+          "preco": 109.99,
+          "disponivel": false
+        }
+      }
+    }
+    
+  ]
+}
